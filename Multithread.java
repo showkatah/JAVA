@@ -27,6 +27,7 @@ public class Multithread
 {
   public static void main(String args[])
   {
+      System.out.println("TESTING");
     Mythrd ob1 = new Mythrd("Cut the ticket");
     Mythrd ob2 = new Mythrd("Show the ticket");
     Thread t1 =new Thread(ob1);
